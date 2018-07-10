@@ -1,1 +1,17 @@
-name: woaini121323
+server:
+  port: 9001
+spring:
+  application:
+    name: product
+  #zipkin
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+  sleuth:
+    sampler:
+      probability: 1
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: test
