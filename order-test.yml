@@ -14,5 +14,20 @@ spring:
   sleuth:
     sampler:
       probability: 1
+#启用feign熔断      
+feign:
+  hystrix:
+    enabled: true
+#熔断超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread: 
+            timeoutInMilliseconds: 500000
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
 girl:
   name: lili
