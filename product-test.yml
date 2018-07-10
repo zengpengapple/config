@@ -1,8 +1,5 @@
 girl:
   name: lili2
-spring:
-  application:
-    name: product
 server:
   port:9001
 spring:
