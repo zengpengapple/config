@@ -1,8 +1,6 @@
 server:
   port: 9001
 spring:
-  application:
-    name: product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/spring-cloud?characterEncoding=utf-8
