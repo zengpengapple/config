@@ -1,1 +1,7 @@
-
+server:
+  port: 9004
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      service-id: product
