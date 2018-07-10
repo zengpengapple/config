@@ -30,4 +30,4 @@ logging:
   level:
     org.springframework.cloud.openfeign: debug
 girl:
-  name: lili
+  name: lucy
